@@ -1,0 +1,101 @@
+{
+  "locale": "es",
+  "common": {
+    "appName": "Gestión de Propiedades",
+    "footer": "Todos los derechos reservados.",
+    "welcome": "Bienvenido al Sistema de Gestión de Propiedades",
+    "description": "Una solución integral para gestionar propiedades, tipos de propiedades y propietarios. Utilice este sistema para llevar un registro de su cartera inmobiliaria e información asociada."
+  },
+  "navigation": {
+    "properties": "Propiedades",
+    "propertyTypes": "Tipos de Propiedad",
+    "owners": "Propietarios",
+    "home": "Inicio"
+  },
+  "actions": {
+    "add": "Agregar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "back": "Volver",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "submit": "Enviar",
+    "view": "Ver",
+    "actions": "Acciones",
+    "select": "Seleccionar"
+  },
+  "properties": {
+    "title": "Propiedades",
+    "newProperty": "Agregar Nueva Propiedad",
+    "editProperty": "Editar Propiedad",
+    "number": "Número",
+    "address": "Dirección",
+    "area": "Área",
+    "constructionArea": "Área de Construcción",
+    "propertyType": "Tipo de Propiedad",
+    "owner": "Propietario",
+    "details": "Detalles de la Propiedad",
+    "deleteConfirmation": "¿Está seguro que desea eliminar esta propiedad?",
+    "deleteMessage": "¿Está seguro que desea eliminar la propiedad \"{number}\"? Esta acción no se puede deshacer.",
+    "deleteSuccess": "Propiedad eliminada exitosamente.",
+    "createSuccess": "Propiedad creada exitosamente.",
+    "updateSuccess": "Propiedad actualizada exitosamente.",
+    "description": "Administre sus propiedades inmobiliarias, incluyendo apartamentos, casas, espacios comerciales y más."
+  },
+  "propertyTypes": {
+    "title": "Tipos de Propiedad",
+    "newPropertyType": "Agregar Nuevo Tipo de Propiedad",
+    "editPropertyType": "Editar Tipo de Propiedad",
+    "description": "Descripción",
+    "deleteConfirmation": "¿Está seguro que desea eliminar este tipo de propiedad?",
+    "deleteConfirmationMessage": "¿Está seguro que desea eliminar el tipo de propiedad \"{description}\"? Esta acción no se puede deshacer.",
+    "deleteSuccess": "Tipo de propiedad eliminado exitosamente.",
+    "createSuccess": "Tipo de propiedad creado exitosamente.",
+    "updateSuccess": "Tipo de propiedad actualizado exitosamente.",
+    "pageDescription": "Defina y categorice diferentes tipos de propiedades para organizar mejor su cartera inmobiliaria.",
+    "deleteErrorInUse": "No se puede eliminar el tipo de propiedad porque tiene propiedades asociadas."
+  },
+  "owners": {
+    "title": "Propietarios",
+    "newOwner": "Agregar Nuevo Propietario",
+    "editOwner": "Editar Propietario",
+    "name": "Nombre",
+    "telephone": "Teléfono",
+    "email": "Correo Electrónico",
+    "identificationNumber": "Número de Identificación",
+    "address": "Dirección",
+    "deleteConfirmation": "¿Está seguro que desea eliminar este propietario?",
+    "deleteConfirmationMessage": "¿Está seguro que desea eliminar al propietario \"{name}\"? Esta acción no se puede deshacer.",
+    "deleteSuccess": "Propietario eliminado exitosamente.",
+    "createSuccess": "Propietario creado exitosamente.",
+    "updateSuccess": "Propietario actualizado exitosamente.",
+    "description": "Gestione la información de los propietarios y sus propiedades asociadas.",
+    "deleteErrorInUse": "No se puede eliminar el propietario porque tiene propiedades asociadas."
+  },
+  "validation": {
+    "required": "{field} es requerido",
+    "email": "Formato de correo electrónico inválido",
+    "number": "Debe ser un número válido",
+    "minLength": "La longitud mínima es de {length} caracteres",
+    "maxLength": "La longitud máxima es de {length} caracteres"
+  },
+  "errors": {
+    "generic": "Ha ocurrido un error. Por favor, inténtelo de nuevo.",
+    "notFound": "El recurso no fue encontrado.",
+    "serverError": "Error del servidor. Por favor, inténtelo más tarde.",
+    "unauthorized": "No está autorizado para acceder a este recurso.",
+    "validation": "Por favor, corrija los errores de validación e inténtelo de nuevo."
+  },
+  "loading": "Cargando...",
+  "noData": "No hay datos disponibles",
+  "settings": {
+    "language": "Idioma",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  }
+}

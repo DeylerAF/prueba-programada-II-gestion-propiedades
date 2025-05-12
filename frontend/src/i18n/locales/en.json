@@ -1,0 +1,101 @@
+{
+  "locale": "en",
+  "common": {
+    "appName": "Property Management",
+    "footer": "All rights reserved.",
+    "welcome": "Welcome to Property Management System",
+    "description": "A comprehensive solution for managing properties, property types, and property owners. Use this system to keep track of your real estate portfolio and associated information."
+  },
+  "navigation": {
+    "properties": "Properties",
+    "propertyTypes": "Property Types",
+    "owners": "Owners",
+    "home": "Home"
+  },
+  "actions": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "search": "Search",
+    "filter": "Filter",
+    "submit": "Submit",
+    "view": "View",
+    "actions": "Actions",
+    "select": "Select"
+  },
+  "properties": {
+    "title": "Properties",
+    "newProperty": "Add New Property",
+    "editProperty": "Edit Property",
+    "number": "Number",
+    "address": "Address",
+    "area": "Area",
+    "constructionArea": "Construction Area",
+    "propertyType": "Property Type",
+    "owner": "Owner",
+    "details": "Property Details",
+    "deleteConfirmation": "Are you sure you want to delete this property?",
+    "deleteMessage": "Are you sure you want to delete property \"{number}\"? This action cannot be undone.",
+    "deleteSuccess": "Property deleted successfully.",
+    "createSuccess": "Property created successfully.",
+    "updateSuccess": "Property updated successfully.",
+    "description": "Manage your real estate properties, including apartments, houses, commercial spaces, and more."
+  },
+  "propertyTypes": {
+    "title": "Property Types",
+    "newPropertyType": "Add New Property Type",
+    "editPropertyType": "Edit Property Type",
+    "description": "Description",
+    "deleteConfirmation": "Are you sure you want to delete this property type?",
+    "deleteConfirmationMessage": "Are you sure you want to delete property type \"{description}\"? This action cannot be undone.",
+    "deleteSuccess": "Property type deleted successfully.",
+    "createSuccess": "Property type created successfully.",
+    "updateSuccess": "Property type updated successfully.",
+    "pageDescription": "Define and categorize different types of properties to better organize your real estate portfolio.",
+    "deleteErrorInUse": "Cannot delete property type because it has associated properties."
+  },
+  "owners": {
+    "title": "Owners",
+    "newOwner": "Add New Owner",
+    "editOwner": "Edit Owner",
+    "name": "Name",
+    "telephone": "Telephone",
+    "email": "Email",
+    "identificationNumber": "Identification Number",
+    "address": "Address",
+    "deleteConfirmation": "Are you sure you want to delete this owner?",
+    "deleteConfirmationMessage": "Are you sure you want to delete owner \"{name}\"? This action cannot be undone.",
+    "deleteSuccess": "Owner deleted successfully.",
+    "createSuccess": "Owner created successfully.",
+    "updateSuccess": "Owner updated successfully.",
+    "description": "Manage property owners' information and their associated properties.",
+    "deleteErrorInUse": "Cannot delete owner because they have associated properties."
+  },
+  "validation": {
+    "required": "{field} is required",
+    "email": "Invalid email format",
+    "number": "Must be a valid number",
+    "minLength": "Minimum length is {length} characters",
+    "maxLength": "Maximum length is {length} characters"
+  },
+  "errors": {
+    "generic": "An error occurred. Please try again.",
+    "notFound": "The resource was not found.",
+    "serverError": "Server error. Please try again later.",
+    "unauthorized": "You are not authorized to access this resource.",
+    "validation": "Please fix the validation errors and try again."
+  },
+  "loading": "Loading...",
+  "noData": "No data available",
+  "settings": {
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}
